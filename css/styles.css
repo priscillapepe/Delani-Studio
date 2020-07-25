@@ -25,5 +25,16 @@
     text-align: center;
     color: white;
 }
-#what-we-do{
+#contact{
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    height: auto;
+}
+
+#textInput{
+    background: transparent;
+    outline:none;
+    box-sizing: none;
+    box-shadow: none;
+    border: 1px solid white;
+    color: white;
 }
