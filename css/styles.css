@@ -28,6 +28,7 @@
 #contact{
     background-image: url(../assets/backgrounds/c_image.jpg);
     height: auto;
+    width: 100%;
 }
 
 #textInput{
@@ -36,5 +37,8 @@
     box-sizing: none;
     box-shadow: none;
     border: 1px solid white;
+    color: white;
+}
+#textInput::placeholder{
     color: white;
 }
