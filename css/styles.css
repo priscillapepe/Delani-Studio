@@ -53,3 +53,26 @@ display: none;
     width: 100%;
     height: auto;
 }
+#work1{
+    position: relative;
+}
+.text{
+    position: absolute;
+    height: 0;
+    width: 89%;
+    top: 0;
+    bottom: 0;
+    background-color: (0,0,0,9);
+    color: white;
+    text-align: center;
+    transition: 1s;
+    opacity: 0;
+}
+.port-text{
+    padding-top: 30%;
+    text-align: center;
+}
+#work1:hover .text{
+    height: 100%;
+    opacity: 1;
+}
