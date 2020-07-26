@@ -7,11 +7,9 @@
     height: auto;
     padding: 2px;
 }
-
 .banner-img-1{
     padding-top: 15%;
 }
-
 .mouse_click{
     padding-top: 10%;
 }
@@ -31,7 +29,6 @@
     height: auto;
     width: 100%;
 }
-
 #textInput{
     background: transparent;
     outline:none;
