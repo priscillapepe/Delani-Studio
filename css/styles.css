@@ -13,7 +13,7 @@
 }
 
 .mouse_click{
-    padding-top: 20%;
+    padding-top: 10%;
 }
 #about-us{
     text-align: center;
@@ -41,4 +41,12 @@
 }
 #textInput::placeholder{
     color: white;
+}
+#what-we-do{
+  text-align: center;
+  background-color: azure;
+  font-family: fantasy;  
+}
+p.class row text-center{
+display: none;
 }
