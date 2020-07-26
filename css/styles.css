@@ -48,3 +48,24 @@
 p.class row text-center{
 display: none;
 }
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.overlay{
+    position: absolute;
+    background: black;
+    background: lightslategray;
+    color: white;
+    width: 100%;
+    transition: .3sec;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
