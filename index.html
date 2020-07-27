@@ -18,7 +18,7 @@
         </div>
     </div>
     <!-- End of Banner -->
-    <section id="about-us">
+    <section id="about-us" style="display: none;">
         <h1>ABOUT US</h1>
         <P>When you work with us,you are part of the team of committed collaborators.All aspects of our software
             development process are intergrated,
@@ -29,7 +29,7 @@
             Then we help translate them into effective and elegant solutions.</p>
     </section>
     <!-- End of About Us -->
-    <section id="services">
+    <section id="services" style="display: none;">
         <h1>SERVICES</h1>
         <P>before we sign a contract or write a line of code our team will spend
             the necessary time needed to understand your product vision</P>
@@ -43,7 +43,11 @@
         <div class="service-icons">
             <div class="row">
                 <div class="col-md-4">
-                    <div id="design">
+                    <div id="design-image">
+                        <img src="./assets/services_icons/design_icon.png" alt="design"> <br><br>
+                        <p>DESIGN</p>
+                    </div>
+                    <div id="design" style="display: none;">
                         <h2 class="title">DESIGN</h2>
                         <p>Our design practice offers a full range of services including brand strategy, interaction
                             and
@@ -52,13 +56,14 @@
                             solicit user feedback and work with you to make sure what gets built is what is needed.
                         </p>
                     </div>
-                    <div id="design-image">
-                        <img src="images/services_icons/design_icon.png" alt="design"> <br><br>
-                        <p>DESIGN</p>
-                    </div>
+                   
                 </div>
                 <div class="col-md-4">
-                    <div id="development">
+                    <div id="development-image">
+                        <img src="./assets/services_icons/dev_icon.png" alt="development"><br><br>
+                        <P>DEVELOPMENT</P>
+                    </div>
+                    <div id="development" style="display: none;">
                         <h2 class="title">DEVELOPMENT</h2>
                         <p>All engineers are fluent in the latest enterprise, mobile and web development
                             technologies.
@@ -66,13 +71,14 @@
                         <p>They collaborate with your team to write, and improve code on a daily basis, using proven
                             practices such as test-driven development and pair programming.</p>
                     </div>
-                    <div id="development-image">
-                        <img src="images/services_icons/dev_icon.png" alt="development"><br><br>
-                        <P>DEVELOPMENT</P>
-                    </div>
+                    
                 </div>
                 <div class="col-md-4">
-                    <div id="product">
+                    <div id="product-image">
+                        <img src="./assets/services_icons/product_icon.png" alt="products"><br><br>
+                        <P>PRODUCT MANAGEMENT</P>
+                    </div>
+                    <div id="product" style="display: none;">
                         <h2 class="title">PRODUCT MANAGEMENT</h2>
                         <p>All engineers are fluent in the latest enterprise, mobile and web development
                             technologies.
@@ -80,10 +86,7 @@
                         <p>They collaborate with your team to write, and improve code on a daily basis, using proven
                             practices such as test-driven development and pair programming.</p>
                     </div>
-                    <div id="product-image">
-                        <img src="images/services_icons/product_icon.png" alt="products"><br><br>
-                        <P>PRODUCT MANAGEMENT</P>
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -206,6 +209,7 @@
                             <textarea name="message" id="textInput" cols="30" rows="10" class="form-control"
                                 placeholder="Enter your email address"></textarea>
                         </div>
+                        <input type="submit" value="Submit">
                     </div>
                 </div>
             </div>

@@ -10,6 +10,17 @@ $(document).ready(function () {
   });
   
   $(document).ready(function () {
+    $("#development-image").click(function () {
+      $("#development-image").toggle();
+      $("#development").toggle();
+    });
+    $("#development").click(function () {
+      $("#development").slideUp("2000");
+      $("#development-image").slideDown("2000");
+    });
+  });
+
+  $(document).ready(function () {
     $("#product-image").click(function () {
       $("#product-image").toggle();
       $("#product").toggle();
