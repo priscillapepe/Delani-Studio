@@ -15,6 +15,7 @@
 }
 #about-us{
     text-align: center;
+    background-color: azure;
 }
 #services{
     background-image: url(../assets/backgrounds/s_image.jpg);
@@ -28,25 +29,9 @@
     height: auto;
     width: 100%;
 }
-#textInput{
-    background: transparent;
-    outline:none;
-    box-sizing: none;
-    box-shadow: none;
-    border: 1px solid white;
-    color: white;
-}
-#textInput::placeholder{
-    color :white;
-}
-.center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-}
 #what-we-do{
   text-align: center;
+  background-color: white;
   font-family: fantasy;  
 }
 p.class row text-center{
@@ -79,4 +64,19 @@ display: none;
 #work1:hover .text{
     height: 100%;
     opacity: 1;
+}
+.textInput{
+    background: transparent;
+    outline:none;
+    box-sizing: none;
+    box-shadow: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
