@@ -30,3 +30,6 @@ $(document).ready(function () {
       $("#product-image").slideDown("2000");
     });
   });
+$("form").submit(function(){
+    alert("Submitted");
+});
